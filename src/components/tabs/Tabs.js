@@ -20,7 +20,7 @@ function Tabs() {
           className={({ isActive }) => (isActive ? activeLink : link)}
           to="/about"
         >
-          Main.jsx
+          About.jsx
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? activeLink : link)}

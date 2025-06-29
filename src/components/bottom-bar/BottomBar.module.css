@@ -7,6 +7,13 @@
   justify-content: space-between;
   align-items: center;
   border: 1.5px solid #2b2b2b;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 32px; /* set your preferred height */
+  z-index: 50; /* ensure it stays above other content */
 }
 
 .right {

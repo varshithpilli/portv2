@@ -1,4 +1,4 @@
-.tabs {
+/* .tabs {
   background: var(--sidebar);
   grid-column: 2 / -1;
   grid-row: 1 / 2;
@@ -6,11 +6,37 @@
   justify-content: flex-start;
   align-items: center;
   font-size: 1rem;
+} */
+
+
+.tabs {
+  position: fixed;
+  top: 33px;             
+  left: 200px;           
+  height: 40px;          
+  width: 100vw;
+  background: var(--sidebar);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 90;      
+  border-bottom: 1px solid var(--aside);
+  font-size: 1rem;
+  overflow-x: auto; 
+  white-space: nowrap;
 }
+
 
 @media (max-width: 57rem) {
   .tabs {
     grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 57rem) {
+  .tabs {
+    left: 0;
+    width: 100%;
   }
 }
 

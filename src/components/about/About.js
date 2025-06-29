@@ -12,14 +12,7 @@ function About() {
       })}
       <h2>About me,</h2>
       <p className={classes.text}>
-      I'm a tech enthusiast who loves diving deep into systems and understanding how things work at a low level.
-      I started my journey exploring low-level programming, working with languages like C and C++, understanding memory management,
-      and tinkering with operating systems, pushing me to experiment with assembly.
-      More recently, I've started exploring web development and machine learning,
-      broadening my perspective beyond low-level systems. I'm learning how to build for the web,
-      working with modern frameworks, and understanding backend architectures. On the ML side, I'm getting familiar with data processing,
-      basic models, and the tools that power AI. While low-level programming still excites me, I'm always keeping an open mind and experimenting,
-      seeing where it takes me.
+      I'm a computer science student with a strong interest in machine learning, natural language processing, and AI systems. I enjoy exploring how models learn, experiment with concepts like fine-tuning, retrieval-augmented generation. Beyond coursework, I actively work on side projects—from building chatbots and classification models aimed at deepening my practical understanding of ML. I'm especially excited by the intersection of language and logic, and I'm always looking for ways to push boundaries through research and hands-on experimentation.
       </p>
     </section>
   );

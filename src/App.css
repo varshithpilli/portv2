@@ -19,7 +19,7 @@
 
 html {
   font-size: 82.5%;
-  background-color: black;
+  background-color: #181818;
   font-family: "Ubuntu Mono", monospace;
   color: var(--text);
 }

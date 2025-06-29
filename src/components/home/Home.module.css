@@ -1,0 +1,63 @@
+.home {
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1 {
+  font-size: 9rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  color: var(--accent-1);
+}
+
+.job {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.5px;
+  display: block;
+}
+
+
+.socials {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-top: 3.8rem;
+}
+
+.social:link,
+.social:visited {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+  letter-spacing: 0.5px;
+  font-size: 3.8rem;
+}
+
+.social:hover {
+  color: var(--accent-4);
+}
+
+@media (max-width: 75em) {
+  h1 {
+    font-size: 6.8rem;
+  }
+}
+
+@media (max-width: 57em) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .job {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+}

@@ -1,0 +1,36 @@
+.bottom {
+  background: var(--main-bg);
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1.5px solid #2b2b2b;
+}
+
+.right {
+  height: 100%;
+  display: flex;
+  gap: 5px;
+  margin-left: auto;
+}
+
+.left {
+  height: 100%;
+  display: flex;
+  margin-right: auto;
+}
+
+.bottom_icons{
+  padding: 0px 5px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.bottom_icons:hover{
+  cursor: default;
+  background-color: #343434;
+}

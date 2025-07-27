@@ -4,7 +4,7 @@ import { Blurhash } from "react-blurhash";
 import "../../Colors.css";
 import classes from "./Projects.module.css";
 
-function ProjectJS({ img, alt, title, git, demo, tech, description }) {
+function ProjectJS({ img, alt, title, git, tech, description }) {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
@@ -55,14 +55,6 @@ function ProjectJS({ img, alt, title, git, demo, tech, description }) {
               rel="noreferrer"
             >
               Github
-            </a>
-            <a
-              className={classes.link}
-              href={demo}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo
             </a>
           </>
         </div>

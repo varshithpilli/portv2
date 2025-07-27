@@ -1,16 +1,28 @@
 .about {
+  position: relative;
+  margin-left: 250px;
+  width: calc(100vw - 250px);
+  height: calc(100vh - 55px);
   padding: 2rem;
-  padding-top: 88px;
-  width: 100%;
+  padding-top: 55px;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
 }
 
-
+.about::-webkit-scrollbar {
+  display: none;
+}
 
 .text {
+  min-height: 25vh;
+  height: auto;
   font-size: 1.6rem;
   letter-spacing: 0.5px;
   margin-bottom: 3rem;
   line-height: 1.4;
+  width: 100%;
+  margin-bottom: 3rem;
+  word-wrap: break-word;
 }
 
 .skillItem {
@@ -18,12 +30,16 @@
   width: 95%;
 }
 
+h3{
+  color: var(--text);
+}
 .skills {
   width: 800px;
   display: flex;
   font-size: 1.3rem;
   gap: 1rem;
   flex-wrap: wrap;
+  font-size: 1.3rem;
 }
 
 .skills > * {
@@ -40,19 +56,63 @@
 }
 
 @media (min-width: 100em) {
-  .text {
-    width: 800px;
+  .skills{
+    font-size: 1.0rem;
+    padding: 0.2rem 1.0rem;
+    border-radius: 3px;
+    letter-spacing: 0.4px;
+  }
+  .about {
+    height: auto;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 55px;
   }
 }
 
 @media (max-width: 75em) {
-  .skills {
+  .skills{
+    font-size: 1.0rem;
+    padding: 0.2rem 1.0rem;
+    border-radius: 3px;
+    letter-spacing: 0.4px;
     width: 100%;
+  }
+  .text {
+    min-height: 45vh;
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .about {
+    height: auto;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 55px;
   }
 }
 
 @media (max-width: 57em) {
+  .skills{
+    font-size: 1.0rem;
+    padding: 0.2rem 1.0rem;
+    border-radius: 3px;
+    letter-spacing: 0.4px;
+  }
   .about {
-    height: 100%;
+    height: auto;
+    margin-left: 0px;
+    width: 100%;
+    padding: 2rem;
+    padding-top: 55px;
+  }
+  .text {
+    margin-bottom: 20px;
+    font-size: small;
+    min-height: 45vh;
+    height: auto;
   }
 }

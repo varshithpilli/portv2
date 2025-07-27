@@ -12,7 +12,7 @@ function About() {
       })}
       <h2>About me,</h2>
       <p className={classes.text}>
-      I'm a computer science student with a strong interest in machine learning, natural language processing, and AI systems. I enjoy exploring how models learn, experiment with concepts like fine-tuning, retrieval-augmented generation. Beyond coursework, I actively work on side projects—from building chatbots and classification models aimed at deepening my practical understanding of ML. I'm especially excited by the intersection of language and logic, and I'm always looking for ways to push boundaries through research and hands-on experimentation.
+      I'm a computer science student passionate about Generative AI, backend systems, and API development. I enjoy exploring how large language models, fine-tuning, and retrieval-augmented generation can be applied to real-world problems. Alongside my coursework, I build side projects that combine GenAI with robust backend architectures, focusing on RESTful APIs, efficient pipelines, and cloud deployment. My interests lie at the intersection of AI-driven applications and scalable software engineering, and I’m always looking to push boundaries through research, experimentation, and hands-on development.
       </p>
     </section>
   );

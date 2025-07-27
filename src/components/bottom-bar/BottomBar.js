@@ -8,7 +8,7 @@ function BottomBar() {
 
       <div className={classes.left}>
         <div className={classes.bottom_icons}>
-          <i className="fa-solid fa-code-branch"></i>main
+          <i className="fa-solid fa-code-branch"></i>master
         </div>
       </div>
 

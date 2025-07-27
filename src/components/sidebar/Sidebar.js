@@ -7,7 +7,7 @@ function Sidebar() {
     <aside className={classes.sidebar}>
       <p className={classes.folders}>Folders</p>
       <p className={classes.folder}>
-        <i className="fa-solid fa-folder-open"></i>Portfolio
+        <i className="fa-solid fa-folder-open"></i>Portv2
       </p>
       <ul className={classes.sideNav}>
         <li>
@@ -25,6 +25,9 @@ function Sidebar() {
 
           <Link className={classes.navItem} to="/contact">
             <i className="fa-brands fa-html5"></i>Contact.html
+          </Link>
+          <Link className={classes.navItem} to="/resume">
+            <i className="fa-brands fa-markdown"></i>Resume.md
           </Link>
         </li>
       </ul>

@@ -7,7 +7,7 @@ function Item({ items, title }) {
       <h3>{title}</h3>
       <div className={classes.skills}>
         {items.map((item) => (
-          <span key={item.id} className={item.color}>
+          <span key={item.id} style={{border: "1px solid var(--accent-4)"}}>
             {item.skill}
           </span>
         ))}

@@ -16,6 +16,7 @@ import classes from "./Sublime.module.css";
 const Projects = lazy(() => import("../projects/Projects"));
 const About = lazy(() => import("../about/About"));
 const Contact = lazy(() => import("../contact/Contact"));
+const Resume = lazy(() => import("../resume/Resume"));
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "contact",
     element: <Wrapper comp={<Contact />} />,
+  },
+  {
+    path: "resume",
+    element: <Wrapper comp={<Resume />} />,
   },
 ]);
 

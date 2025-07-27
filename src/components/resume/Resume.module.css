@@ -1,0 +1,58 @@
+.resume {
+  position: relative;
+  margin-left: 250px;
+  width: calc(100vw - 250px);
+  height: calc(100vh - 55px);
+  padding: 2rem;
+  padding-top: 55px;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+}
+
+iframe{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.resume::-webkit-scrollbar {
+  display: none;
+}
+
+.resumeBtn{
+  color: aliceblue;
+  text-decoration: none;
+  
+}
+@media (min-width: 100em) {
+  .resume {
+    height: auto;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 55px;
+  }
+}
+
+@media (max-width: 75em) {
+  .resume {
+    height: auto;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 55px;
+  }
+}
+
+@media (max-width: 57em) {
+  .resume {
+    height: auto;
+    margin-left: 0px;
+    width: 100%;
+    padding: 2rem;
+    padding-top: 55px;
+  }
+}

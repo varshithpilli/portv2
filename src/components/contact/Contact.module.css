@@ -1,6 +1,12 @@
 .contact {
+  position: relative;
+  margin-left: 250px;
+  width: calc(100vw - 250px);
+  height: calc(100vh - 55px);
   padding: 2rem;
-  margin-top: 40px;
+  padding-top: 55px;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
 }
 
 .form {
@@ -17,6 +23,7 @@ label {
 .input,
 .area {
   display: block;
+  color: var(--text);
   padding: 0.8em;
   border-radius: 4px;
   border: none;
@@ -24,7 +31,7 @@ label {
   margin-bottom: 1.6rem;
   width: 100%;
   font-size: 1.2rem;
-  background: var(--text);
+  background: #000000;
   outline: none;
   transition: box-shadow 0.2s;
 }
@@ -34,43 +41,24 @@ label {
   height: 150px;
 }
 
-.input:focus:invalid,
-.area:focus:invalid {
-  box-shadow: 0 0 15px var(--accent-1);
-}
-
-.input:focus:valid,
-.area:focus:valid {
-  box-shadow: 0 0 15px var(--accent-6);
-}
-
 .send {
   font-family: inherit;
-  width: 120px;
   text-align: center;
+  width: 120px;
   padding: 1rem;
   font-size: 1.4rem;
+  font-weight: 600;
   cursor: pointer;
   background: var(--accent-3);
   border: none;
   border-radius: 4px;
-  font-weight: 600;
   letter-spacing: 0.8px;
   transition: all 0.2s;
   transform-origin: left;
-  color: var(--main-bg);
-}
-
-.send:hover {
-  box-shadow: 0 0 15px var(--accent-3);
-}
-
-.send:disabled:hover {
-  box-shadow: 0 0 0 var(--accent-3);
+  color: var(--text);
 }
 
 .send:disabled {
-  background: var(--aside);
   cursor: not-allowed;
 }
 
@@ -87,39 +75,29 @@ label {
   font-size: 1.6rem;
 }
 
-.socials {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  margin-top: 3.8rem;
-}
-
-.social:link,
-.social:visited {
-  color: var(--text);
-  text-decoration: none;
-  transition: color 0.2s;
-  letter-spacing: 0.5px;
-  font-size: 3.8rem;
-}
-
-.social:hover {
-  color: var(--accent-5);
-}
-
-.social:active {
-  color: var(--accent-1);
-}
-
 @media (max-width: 34rem) {
   .form {
     width: 100%;
   }
-
+  .contact {
+    height: auto;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 55px;
+  }
   .label {
     font-size: 1.2rem;
   }
-
+  .send{
+    width: 80px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+  }
+  
   .input,
   .area {
     font-size: 1rem;

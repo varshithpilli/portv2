@@ -1,84 +1,91 @@
 const Data = [
   {
     id: 1,
-    title: "Languages",
+    title: "Programming",
     items: [
       {
         id: 1,
-        color: "red",
         skill: "Python",
       },
       {
         id: 2,
-        color: "blue",
-        skill: "C",
+        skill: "C/C++",
       },
       {
         id: 3,
-        color: "purple",
-        skill: "C++",
+        skill: "Java",
       },
       {
         id: 4,
-        color: "blue",
-        skill: "Java",
+        skill: "Go",
+      },
+      {
+        id: 5,
+        skill: "JS",
       },
     ],
   },
   {
     id: 2,
-    title: "Frontend",
+    title: "Tools/Technologies",
     items: [
       {
         id: 1,
-        color: "blue",
-        skill: "HTML",
+        skill: "Docker",
       },
       {
         id: 2,
-        color: "yellow",
-        skill: "CSS",
+        skill: "PyTorch",
       },
       {
         id: 3,
-        color: "red",
-        skill: "JavaScript",
+        skill: "Linux",
       },
       {
         id: 4,
-        color: "purple",
-        skill: "TailwindCSS",
+        skill: "Git",
       },
       {
         id: 5,
-        color: "red",
-        skill: "ReactJS",
+        skill: "FastAPI",
+      },
+      {
+        id: 6,
+        skill: "PostgreSQL",
+      },
+      {
+        id: 7,
+        skill: "Neo4j",
+      },
+      {
+        id: 8,
+        skill: "Flask",
+      },
+      {
+        id: 9,
+        skill: "Postman",
       },
     ],
   },
   {
     id: 3,
-    title: "Tools",
+    title: "GenAI",
     items: [
       {
         id: 1,
-        color: "yellow",
-        skill: "Linux",
+        skill: "HuggingFace",
       },
       {
         id: 2,
-        color: "blue",
-        skill: "VisualStudio",
+        skill: "LangChain",
       },
       {
         id: 3,
-        color: "red",
-        skill: "Git",
+        skill: "OpenRouter",
       },
       {
         id: 4,
-        color: "purple",
-        skill: "Github",
+        skill: "PineconeDB",
       },
     ],
   },

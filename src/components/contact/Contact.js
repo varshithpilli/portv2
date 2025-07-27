@@ -96,7 +96,7 @@ function Contact() {
           className={classes.send}
           disabled={submitting}
         >
-          Submit
+          Send
         </button>
 
         <p className={`${classes.status} ${error ? classes.error : classes.succ}`}>

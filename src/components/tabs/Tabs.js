@@ -34,6 +34,12 @@ function Tabs() {
         >
           Contact.html
         </NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? activeLink : link)}
+          to="/resume"
+        >
+          Resume.md
+        </NavLink>
       </ul>
       <div className={classes.filler}></div>
     </nav>

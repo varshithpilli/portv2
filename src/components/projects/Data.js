@@ -1,12 +1,11 @@
-import XyMedia from "./img/XY-Media.webp";
-import JBlog from "./img/jBlog.webp";
-import BEredesign from "./img/BEredesign.webp";
+import Constitutioner from "./img/constitutioner.png";
+import Lin_Alg from "./img/lin-alg.png";
 
 export const projectsData = [
   {
     id: 1,
     type: "web",
-    img: JBlog,
+    img: Constitutioner,
     alt: "Image of Constitutioner",
     title: "Constitutioner",
     description:
@@ -39,7 +38,7 @@ export const projectsData = [
   {
     id: 2,
     type: "web",
-    img: BEredesign,
+    img: Lin_Alg,
     alt: "Image of Lin-Alg Tool",
     title: "Lin-Alg Toolkit",
     description:

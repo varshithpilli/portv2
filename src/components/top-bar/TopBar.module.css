@@ -25,11 +25,11 @@
 }
 
 .dot:nth-child(2):hover {
-  background: var(--accent-3);
+  background: var(--accent-7);
 }
 
 .dot:last-child:hover {
-  background: var(--accent-2);
+  background: var(--accent-6);
 }
 
 .dot {

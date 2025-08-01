@@ -10,14 +10,6 @@ function Resume() {
         style={{ border: "none" }}
         title="Resume PDF"
       ></iframe>
-      <a
-        href="/resume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className={classes.resumeBtn}
-      >
-        📄 View My Resume
-      </a>
     </section>
   );
 }

@@ -25,6 +25,7 @@ iframe{
   text-decoration: none;
   
 }
+
 @media (min-width: 100em) {
   .resume {
     height: auto;

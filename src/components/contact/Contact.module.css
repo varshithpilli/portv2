@@ -75,7 +75,7 @@ label {
   font-size: 1.6rem;
 }
 
-@media (max-width: 34rem) {
+@media (max-width: 48rem) {
   .form {
     width: 100%;
   }

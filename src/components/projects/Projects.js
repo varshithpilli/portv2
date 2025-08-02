@@ -1,6 +1,5 @@
 import classes from "./Projects.module.css";
 import ProjectJS from "./ProjectJS";
-import ProjectDesign from "./ProjectDesign";
 import { projectsData } from "./Data";
 
 function Projects() {

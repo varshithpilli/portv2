@@ -17,7 +17,7 @@ function BottomBar() {
         <div className={classes.bottom_icons}>UTF-8</div>
         <div className={classes.bottom_icons}>CRLF</div>
         <div className={classes.bottom_icons}>
-          <i class="fa-solid fa-terminal"></i>
+          <i className="fa-solid fa-terminal"></i>
         </div>
       </div>
 

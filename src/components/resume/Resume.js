@@ -7,10 +7,11 @@ function Resume() {
         <div className={classes.pdf_preview}>
           <img src="/resume.jpg" alt="Resume Preview" className={classes.pdf_image} />
           <a
-            href="/resume.pdf"
+            href="/Varshith-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={classes.pdf_download}
+            download
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portv2/static/css/main.624ecf4d.css",
+    "main.js": "/portv2/static/js/main.71b134e9.js",
+    "static/css/781.a28b984f.chunk.css": "/portv2/static/css/781.a28b984f.chunk.css",
+    "static/js/781.a26a37dc.chunk.js": "/portv2/static/js/781.a26a37dc.chunk.js",
+    "static/css/26.7821a88b.chunk.css": "/portv2/static/css/26.7821a88b.chunk.css",
+    "static/js/26.6ae9b078.chunk.js": "/portv2/static/js/26.6ae9b078.chunk.js",
+    "static/css/84.465826a2.chunk.css": "/portv2/static/css/84.465826a2.chunk.css",
+    "static/js/84.1ece0900.chunk.js": "/portv2/static/js/84.1ece0900.chunk.js",
+    "static/css/542.89188ca1.chunk.css": "/portv2/static/css/542.89188ca1.chunk.css",
+    "static/js/542.0ec0d0a7.chunk.js": "/portv2/static/js/542.0ec0d0a7.chunk.js",
+    "static/css/50.31d6cfe0.chunk.css": "/portv2/static/css/50.31d6cfe0.chunk.css",
+    "static/media/constitutioner.png": "/portv2/static/media/constitutioner.f10fba86c419026fa517.png",
+    "static/media/lin-alg.png": "/portv2/static/media/lin-alg.3df3e27054a067ed1a93.png",
+    "index.html": "/portv2/index.html",
+    "main.624ecf4d.css.map": "/portv2/static/css/main.624ecf4d.css.map",
+    "main.71b134e9.js.map": "/portv2/static/js/main.71b134e9.js.map",
+    "781.a28b984f.chunk.css.map": "/portv2/static/css/781.a28b984f.chunk.css.map",
+    "781.a26a37dc.chunk.js.map": "/portv2/static/js/781.a26a37dc.chunk.js.map",
+    "26.7821a88b.chunk.css.map": "/portv2/static/css/26.7821a88b.chunk.css.map",
+    "26.6ae9b078.chunk.js.map": "/portv2/static/js/26.6ae9b078.chunk.js.map",
+    "84.465826a2.chunk.css.map": "/portv2/static/css/84.465826a2.chunk.css.map",
+    "84.1ece0900.chunk.js.map": "/portv2/static/js/84.1ece0900.chunk.js.map",
+    "542.89188ca1.chunk.css.map": "/portv2/static/css/542.89188ca1.chunk.css.map",
+    "542.0ec0d0a7.chunk.js.map": "/portv2/static/js/542.0ec0d0a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.624ecf4d.css",
+    "static/js/main.71b134e9.js"
+  ]
+}

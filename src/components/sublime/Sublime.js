@@ -1,5 +1,5 @@
 import {
-  createBrowserRouter,
+  createHashRouter,  // Replace createBrowserRouter with createHashRouter
   RouterProvider,
   redirect,
 } from "react-router-dom";
@@ -18,7 +18,7 @@ const About = lazy(() => import("../about/About"));
 const Contact = lazy(() => import("../contact/Contact"));
 const Resume = lazy(() => import("../resume/Resume"));
 
-const router = createBrowserRouter([
+const router = createHashRouter([  // Use createHashRouter instead
   {
     path: "/",
     element: <Wrapper comp={<Home />} />,
